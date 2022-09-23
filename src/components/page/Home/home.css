@@ -1,0 +1,31 @@
+.bannerBg {
+  /* background-image: url("https://i.ibb.co/z6W1CJf/20-dc5e2b870a07316225ec.jpg"); 
+  background-position: center;  
+  background-repeat: no-repeat;  
+  background-size: cover;   */
+  background: #1A1A25;
+
+}
+
+/* ----------------HowItWorks-------------- */
+.backgroundSection {
+  background-color: #1A1A25 !important;
+  /* padding-top: 50px; */
+  /* padding-bottom: 0px !important; */
+}
+
+.specific {
+  margin-top: 36px;
+}
+
+.boxesNft {
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .home-txt-pd {
+  padding-top: -40px !important
+} */

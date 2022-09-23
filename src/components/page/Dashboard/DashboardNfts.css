@@ -1,0 +1,72 @@
+.nftsBox {
+    background-color: #272d47;
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    height: auto;
+}
+
+.handleHeightNFTS {
+    height: auto;
+    padding-bottom: 150px !important;
+}
+
+.nftButtonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -36px;
+}
+
+.button_width {
+    width: 90px;
+}
+
+/* .handleForDnoneinRespo {
+    display: block !important;
+} */
+
+.nft-edit-button {
+    cursor: pointer;
+}
+
+.th-font-size {
+    font-size: 14px !important;
+}
+
+.td-font-size {
+    font-size: 12.7px !important;
+}
+
+.nft-delete-button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 460px) {
+    .handleForDnoneinRespo {
+        display: none !important;
+    }
+
+    .handleHeightNFTS {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .nftsBox {
+        background-color: #272d47;
+        border: 1px solid rgba(255, 255, 255, 0.02);
+        height: auto;
+        margin-right: 30px;
+    }
+
+    .handleHeightNFTS {
+        /* height: 100vh; */
+        /* padding-bottom: 550px !important; */
+    }
+}
+
+@media only screen and (max-width: 841px) and (min-width: 1900px) {
+    .handleHeightNFTS {
+        /* height: 100vh; */
+        /* padding-bottom: 800px !important; */
+    }
+}

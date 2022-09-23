@@ -1,0 +1,97 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.15.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.96",
+    "@mui/material": "^5.9.0",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@mui/x-date-pickers": "^5.0.0-beta.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.22.8",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "date-fns": "^2.29.2",
+    "dotenv": "^16.0.2",
+    "dotenv-webpack": "^8.0.1",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "ethers": "^5.6.9",
+    "fs": "^0.0.1-security",
+    "html-to-draftjs": "^1.5.0",
+    "html-to-image": "^1.9.0",
+    "i": "^0.3.7",
+    "immutable": "^4.1.0",
+    "npm": "^8.18.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "qrcode": "^1.5.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-countdown": "^2.3.2",
+    "react-date-countdown-timer": "^1.1.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-icons": "^4.4.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-phone-number-input": "^3.2.11",
+    "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.29.0",
+    "react-timer-hook": "^3.0.5",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.29",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set PORT=80 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router-dom": "^5.3.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
